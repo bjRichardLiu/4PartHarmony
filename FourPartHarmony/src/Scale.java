@@ -3,10 +3,10 @@ public class Scale {
     private boolean major;
     private int[] availableNotesInScale;
 
-    public Scale(String scaleName, boolean major, int[] availableNotesInScale) {
+    public Scale(String scaleName, boolean major) {
         this.scaleName = scaleName;
         this.major = major;
-        this.availableNotesInScale = new int[7];
+        this.availableNotesInScale = getAvailableNotesInScale();
     }
 
     public String getScaleName() {
@@ -32,6 +32,8 @@ public class Scale {
     }
 
     public int[] getAvailableNotesInScale() {
+
+        availableNotesInScale = new int[7];
         int tonic = 0;
 
         if (scaleName.contains("C")) {
