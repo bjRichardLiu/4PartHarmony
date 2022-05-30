@@ -1,10 +1,12 @@
 public class Chord {
 
     private int[] chordGenerated;
+    private int base;
 
 
-    public Chord(int[] chordGenerated) {
+    public Chord(int[] chordGenerated, int base) {
         this.chordGenerated = chordGenerated;
+        this.base = base;
     }
 
     public int[] getChordGenerated() {
