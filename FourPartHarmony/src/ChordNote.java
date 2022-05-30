@@ -17,7 +17,7 @@ public class ChordNote {
         notesInChords[1] = scale.getAvailableNotesInScale()[base + 2];
         notesInChords[2] = scale.getAvailableNotesInScale()[base + 4];
 
-        
+
 
 
         return notesToUse;
