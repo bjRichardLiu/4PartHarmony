@@ -1,3 +1,4 @@
+//The scale object
 public class Scale {
     private String scaleName;
     private boolean major;
