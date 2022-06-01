@@ -77,11 +77,14 @@ public class Generator {
             }
         } while (check = false);
 
-        
+        Chord chord;
+        ChordList chordList;
+        ChordNote chordNote;
+        List list;
 
+        for (int i = 0; i < 8; i++) {
 
-
-
+        }
 
     }
 }
