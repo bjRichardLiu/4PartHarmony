@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//The main generator class of the project
 public class Generator {
     //8 measure voice leading
 
